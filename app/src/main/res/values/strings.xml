@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ANDROID_CSE224</string>
+    <string name="get_started_with_your_work_school_or_personal_microsoft_account">Get started with your work, school or personal Microsoft account</string>
+    <string name="microsoft_teams">Microsoft Teams</string>
+    <string name="sign_in">Sign In</string>
+
+</resources>

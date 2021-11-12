@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".Cse224">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name"
+        />
+    <Button
+        android:id="@+id/Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Red"
+        android:text="Click Here"
+        android:textSize="22dp"
+        android:layout_below="@+id/editText"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your place:"
+        android:textSize="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/RGrp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/RBtn1"
+            android:text="Delhi"
+            android:textColor="@color/Red"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/RBtn2"
+            android:textColor="@color/Red"
+            android:text="Mumbai"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RGrp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Next"
+        android:textColor="@color/Red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/submit"
+        android:text="Choose your cuisine"
+        android:textStyle="bold"
+        android:textColor="@color/Red"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:text="Indian"
+        android:textColor="@color/Red"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:text="Chinese"
+        android:textColor="@color/Red"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Red"
+        android:text="Done"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/checkBox2"
+        />
+
+
+</RelativeLayout>
